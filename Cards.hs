@@ -44,7 +44,6 @@ instance Show (Card a) where
    -}
 
 --------------------------------------------------------------------------------
--- TODO: Uncomment and implement the following two instances
 
 instance Ord (Card AcesHigh) where
   (<=) :: Card AcesHigh -> Card AcesHigh -> Bool
